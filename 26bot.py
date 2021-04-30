@@ -1036,7 +1036,7 @@ async def on_message(message):
     if message.content.startswith('!members'):
         x = message.server.members
         for member in x:
-            print(member.name)  # you'll just print out Member objects your way. 
+            print(member.name) 
 
 access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
