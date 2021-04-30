@@ -1,4 +1,4 @@
-!import discord
+import discord
 import os
 import openpyxl
 from captcha.image import ImageCaptcha
