@@ -1,4 +1,4 @@
-import discord
+!import discord
 import os
 import openpyxl
 from captcha.image import ImageCaptcha
@@ -1038,5 +1038,5 @@ async def on_message(message):
         for member in x:
             print(member.name)  # you'll just print out Member objects your way. 
 
-acess_token = os.environ['BOT_TOKEN']
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
