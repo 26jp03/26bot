@@ -1038,5 +1038,4 @@ async def on_message(message):
         for member in x:
             print(member.name) 
 
-access_token = os.environ['BOT_TOKEN']
-client.run(access_token)
+client.run("NjgzNTY5NzE4NTAxODM0NzU0.Xltd6Q.8jQCGXhNoBHo5aSlCupfE2O5GlI")
